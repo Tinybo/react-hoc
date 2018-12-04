@@ -1,5 +1,10 @@
 import React from 'react';
 
+/**
+ * 用于查询成绩（反向继承）。
+ * @author Tinybo
+ * @date 2018 12 04
+ */
 function HOC (ComponentClass) {
     return class HOC extends ComponentClass {
         constructor () {
